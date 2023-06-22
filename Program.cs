@@ -40,11 +40,11 @@
 // firstDigit == secondDigit * secondDigit
 // if (firstDigit == secondDigit * secondDigit) // Точка с запятой НИКОГДА перед "{"
 // {
-    // Console.WriteLine("Число " + firstDigit + " является квадратом от числа " + secondDigit);
+// Console.WriteLine("Число " + firstDigit + " является квадратом от числа " + secondDigit);
 // }
 // else // Все остальные случаи
 // {
-    // Console.WriteLine("Число " + firstDigit + " НЕ ЯВЛЯЕТСЯ квадратом от числа " + secondDigit);
+// Console.WriteLine("Число " + firstDigit + " НЕ ЯВЛЯЕТСЯ квадратом от числа " + secondDigit);
 // }
 
 
@@ -61,13 +61,13 @@
 // int N = Convert.ToInt32(Console.ReadLine()); // Перевод строчки в целое число
 // if (N < 0) // Число N - отрц.
 // {
-    // N = N * -1; // N = -5, N = 5
+// N = N * -1; // N = -5, N = 5
 // }
 // int negativeN = N * -1; // -N 
 
 // while (negativeN <= N)
 // {
-    // Console.WriteLine(negativeN); // -n = -2, то печатаю -2
-    // negativeN++; // Инкремент: negativeN = negativeN + 1
-    // Декремент: negativeN-- (negativeN = negativeN - 1)
+// Console.WriteLine(negativeN); // -n = -2, то печатаю -2
+// negativeN++; // Инкремент: negativeN = negativeN + 1
+// Декремент: negativeN-- (negativeN = negativeN - 1)
 // }
