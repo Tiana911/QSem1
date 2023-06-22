@@ -56,15 +56,18 @@
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
 // 2 -> " -2, -1, 0, 1, 2"
 
-Console.Write("Введите число: ");
+// Console.Write("Введите число: ");
 
-int N = Convert.ToInt32(Console.ReadLine()); // Перевод строчки в целое число
+// int N = Convert.ToInt32(Console.ReadLine()); // Перевод строчки в целое число
+// if (N < 0) // Число N - отрц.
+// {
+    // N = N * -1; // N = -5, N = 5
+// }
+// int negativeN = N * -1; // -N 
 
-int negativeN = N * -1; // -N 
-
-while (negativeN <= N)
-{
-    Console.WriteLine(negativeN); // -n = -2, то печатаю -2
-    negativeN++; // Инкремент: negativeN = negativeN + 1
+// while (negativeN <= N)
+// {
+    // Console.WriteLine(negativeN); // -n = -2, то печатаю -2
+    // negativeN++; // Инкремент: negativeN = negativeN + 1
     // Декремент: negativeN-- (negativeN = negativeN - 1)
-}
+// }
