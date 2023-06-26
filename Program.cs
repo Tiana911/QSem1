@@ -100,3 +100,55 @@
 // Console.WriteLine($"В числе {randomNumber} -> {result}");
 
 
+// 12. Напишите программу, которая будет принимать на вход два числа и выводить,
+//  является ли второе число кратным первому. Если число 2 не кратно числу 1, 
+//  то программа выводит остаток от деления.
+// 34, 5 -> не кратно, остаток 4 
+// 16, 4 -> кратно
+
+// Console.Write("Получаем первое число: ");
+// int firstDigit = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Получаем второе число: ");
+// int secondDigit = Convert.ToInt32(Console.ReadLine());
+
+// // Является ли число secondDigit квадратом от firstDigit
+// if (firstDigit % secondDigit == 0)
+// {
+//     Console.WriteLine($"Число {firstDigit} делится нацело, без остатка на {secondDigit}");
+// }
+// else
+// {
+//     Console.WriteLine($"Остаток от деления числа {firstDigit} на {secondDigit} : {firstDigit % secondDigit}");
+// }
+
+
+// 14. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+// 14 -> нет 
+// 46 -> нет 
+// 161 -> да
+
+// Console.Write("Получаем  число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if (number % 7 == 0 && number % 23 == 0)// Число делится на 7 БЕЗ остатка
+// {
+//     Console.WriteLine($"Число {number} делится без остатка на 7 и на 23");
+// }
+// else
+// {
+//     Console.WriteLine($"Число {number} делится на 7 с остатком: {number % 7}");;
+//     Console.WriteLine($"Число {number} делится на 23 с остатком: {number % 23}");;
+// }
+
+// Console.Write("Получаем  число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if (number % 7 == 0 && number % 23 == 0)// Число делится на 7 БЕЗ остатка
+// {
+//     Console.WriteLine($"Число {number} делится без остатка на 7 и на 23");
+// }
+// else
+// {
+//     Console.WriteLine($"Число {number} НЕ делится без остатка на 7 и на 23");
+// }
