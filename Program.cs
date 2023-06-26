@@ -16,7 +16,6 @@
 // int number = Convert.ToInt32(Console.ReadLine()); // в переменной number хранится число 5
 // int result = number * number;
 // result = number * number; result = 5+5 => res = 25
-
 // Console.WriteLine("Квадра числа " +  number + " равен: " + result); //"1"+"2" ="12" - конкатинация, процесс сложения строк
 
 
@@ -31,7 +30,6 @@
 // camelCase 
 // Console.Write("Введите первое число: ");
 // int firstDigit = Convert.ToInt32(Console.ReadLine());
-
 // Console.Write("Введите второе число: ");
 // int secondDigit = Convert.ToInt32(Console.ReadLine());
 // "=" - прис-я; "==" - проверка на равенство
@@ -53,14 +51,12 @@
 // 2 -> " -2, -1, 0, 1, 2"
 
 // Console.Write("Введите число: ");
-
 // int N = Convert.ToInt32(Console.ReadLine()); // Перевод строчки в целое число
 // if (N < 0) // Число N - отрц.
 // {
 // N = N * -1; // N = -5, N = 5
 // }
 // int negativeN = N * -1; // -N 
-
 // while (negativeN <= N)
 // {
 // Console.WriteLine(negativeN); // -n = -2, то печатаю -2
@@ -73,3 +69,34 @@
 // 78 -> 8 
 // 12-> 2 
 // 85 -> 8
+
+// int randomNumber = new Random().Next(10, 100); // Число от 10 до 99 включительно 
+// int firstDigit = randomNumber / 10; // Первая цифра в числе: 78 / 10 = 7
+// int secondDigit = randomNumber % 10; // Первая цифра в числе: 78 % 10 = 8
+// int max = firstDigit; // Пусть (можем ошибаться) первая цифра в числе - максимальная 
+// if (secondDigit > max) // Если вторая цифра числа больше максимума,
+// {
+    // max = secondDigit; // то максимум - вторая цифра
+// }
+// Console.WriteLine("Максимальная цифра в числе: " + randomNumber + " -  это " + max); // Конкатенация 
+// Console.WriteLine($"Максимальная цифра в числе: {randomNumber} - это: {max}"); // Интерполяция 
+// "Текст : {Переменная} текст {Переменная}"
+
+// int randomNumber = new Random().Next(100, 1000); // 100-999 включительно
+// int firstDigit = randomNumber / 100;
+// int thirdDigit = randomNumber % 10;
+// int result = firstDigit * 10  + thirdDigit;
+// Console.WriteLine($"В числе {randomNumber} -> {result}");
+// Console.WriteLine($"Первая цифра: {firstDigit}; третья: {thirdDigit}");
+
+
+// 11. Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
+// 456 -> 46
+// 782 -> 72
+// 918 -> 98
+
+// int randomNumber = new Random().Next(100, 1000); // 100-999 включительно
+// int result = (randomNumber / 100) * 10  + randomNumber % 10;
+// Console.WriteLine($"В числе {randomNumber} -> {result}");
+
+
