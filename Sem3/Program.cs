@@ -5,6 +5,21 @@
 // 12821 -> да
 // 23432 -> да
 
+Console.Write("Введите пятизнычное число: ");
+string? number = Console.ReadLine();
+
+void CheckingNumber(string number){
+  if (number[0]==number[4] || number[1]==number[3]){
+    Console.WriteLine($"Ваше число: {number} - палиндром.");
+  }
+  else Console.WriteLine($"Ваше число: {number} - НЕ палиндром.");
+}
+
+if (number!.Length == 5){
+  CheckingNumber(number);
+}
+else Console.WriteLine($"Введи пятизначное число");
+
 
 // Задача 21
 // Напишите программу, которая принимает 
@@ -33,11 +48,11 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
  
- int start =1;
-Console.Write("Введите число: ");
-int end = Convert.ToInt32(Console.ReadLine());
-while (start<= end)
-{
-    Console.Write(Math.Pow(start, 3) + ",");
-    start++;
-}
+//  int start =1;
+// Console.Write("Введите число: ");
+// int end = Convert.ToInt32(Console.ReadLine());
+// while (start<= end)
+// {
+//     Console.Write(Math.Pow(start, 3) + ",");
+//     start++;
+// }
